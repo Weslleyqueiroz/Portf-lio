@@ -1,49 +1,380 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weslley | Portfólio</title>
-    <meta name="description" content="Portfólio do Weslley Batista De Queiroz para compartilhar projetos e habilidades desenvolvidas">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weslley Batista De Queiroz | Portfólio</title>
+  <meta name="description" content="Portfólio do Weslley Batista para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-        <header class="header">
-            <div class="header__brand">
-                <img class="brand__logo" src="assets/images/android-chrome-192x192.png" alt="Logo Sukuna">
-            </div>
-            <i id="toggleTheme" class="bi bi-brightness-high"></i>
-        </header>
-        <nav>
-            <ul class="menu menu--mobile">
-                <li class="menu__item">
-                    <a class="menu__link active" href="#home">
-                        <i class="menu__icon bi bi-house"></i>
-                        <span class="menu__text">Home</span>
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="#projetos">
-                        <i class="menu__icon bi bi-window-stack"></i>
-                        <span class="menu__text">Projetos</span>
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="#sobre">
-                        <i class="menu__icon bi bi-person"></i>
-                        <span class="menu__text">Sobre</span>
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="#contato">
-                        <i class="menu__icon bi bi-envelope"></i>
-                        <span class="menu__text">Contato</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/android-chrome-192x192.png" alt="Logo Sukuna">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Estudante de ads </b> </h1>
+      <p>Weslley Batista De Queiroz, São Paulo-SP, Graduando em ADS.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/Weslleyqueiroz" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/weslleybatista/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.instagram.com/notweslley/" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+    <div class="main__content2">
+      <iframe src="https://www.linkedin.com/posts/weslleybatista_ol%C3%A1-rede-hoje-venho-compartilhar-um-video-activity-7262266974955560961-CdWb?utm_source=share&utm_medium=member_desktop" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/icons/html.png" alt="Logo Html">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/icons/python.png" alt="Logo Python">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/icons/java.png" alt="Logo Java">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/icons/JS.png" alt="Logo JS">
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/mundo invertido.png" alt="mundo invertido">
+        <div class="card__body">
+          <h3 class="card__title">Mundo Invertido</h3>
+          <p class="card__description">Página da série Stranger things</p>
+          <ul class="card__list">
+            <li class="card__item">Mudança de temas;</li>
+            <li class="card__item">Música no site;</li>
+            
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/icons/JS.png" alt="Logo JS">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/icons/image.png" alt="Logo css">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/icons/html.png" alt="Logo html">
+            
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/projects/bola.png" alt="Capa blog">
+        <div class="card__body">
+          <h3 class="card__title">Blog Futebol</h3>
+          <p class="card__description">Blog onde contém noticias dos esportes.</p>
+          <ul class="card__list">
+            <li class="card__item">Postagens relacionadas a esportes;</li>
+            <li class="card__item">Filtragem por tags e categorias;</li>
     
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/icons/image.png" alt="Logo css">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/icons/html.png" alt="Logo html">
+            </li>
+            
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/image.png "alt="Capa game Yugioh">
+        <div class="card__body">
+          <h3 class="card__title">Cards Yu-Gi-Oh</h3>
+          <p class="card__description">Game de cards.</p>
+          <ul class="card__list">
+            <li class="card__item">Cards aleatórios;</li>
+            <li class="card__item">Sistema de pontuação;</li>
+            <li class="card__item">Trabalho de imagens.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/icons/JS.png" alt="Logo JS">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/icons/html.png" alt="Logo html">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/icons/image.png" alt="Logo css">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/Weslleyqueiroz">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/android-chrome-192x192.png" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Sou Weslley Batista de Queiroz, nascido em SP capital. Gosto muito de jogar bola e jogos eletrônicos, atualmente estudo análise e desenvolvimento de sistemas na FECAF.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Intermediário | Espanhol: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/weslleybatista/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Ensino médio integrado ao técnico em administração</h4>
+          <span>jan 2020 - dez 2022</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Etec Uirapuru</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>administração</span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Jovem Aprendiz Administrativo</h4>
+          <span>Apsen Farmacêutica. abr 2023 - Atualmente</span>
+          <span>Programa de aprendizagem
+          </span>
+          <ul class="about__list">
+            <li class="about__item">Controle de estoque;</li>
+            <li class="about__item">Inscrição de médicos em eventos;</li>
+            <li class="about__item">Lidar com aberturas de pedidos no SAP.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Versionamento de Código com Git e GitHub</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One - Fev - 2024
+              </p>
+              <p>
+                O que é versionamento de código, Git e GitHub. Como instalar e configurar o Git em diferentes sistemas 
+                operacionais e como autenticar via Token e SSH. Como manusear repositórios, indo desde a criação e clonagem 
+                até o gerenciamento de branches, passando por todas as etapas de salvar, desfazer e sincronizar alterações 
+                com o repositório remoto. 
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>Backend com Java – Santander (2024);</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One - Fev - 2024
+              </p>
+              <p>
+                Bootcamp onde foi ensiando sobre a linguagem de programação java e seus conceitos básicos.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Agile Methodology</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Agile Methodology Nível 1 - Univ. Fecaf (2024);
+              </p>
+              <p>
+                Otimização dos resultados em grupos de trabalho
+              </p>
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/Weslleyqueiroz" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/weslleybatista/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="" target="_blank">
+          <i class="menu__icon bi bi-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:weslleyqueiroz773@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">weslleyqueiroz773@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2023. Portfólio desenvolvido para fins educativos no Lab "Construindo seu Portfolio Front-end do Zero" da 
+      <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> por 
+      <a href="https://github.com/elidianaandrade" target="_blank">Weslley Batista</a>.
+    </p>
+  </footer>
+  <script src="assets/scripts/script.js"></script>
 </body>
 </html>
